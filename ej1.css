@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 10;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.logo {
+    height: 24px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5em;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1db954;
+    height: 50vh;
+    text-align: center;
+    padding: 2em;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    margin-bottom: 1em;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #1db954;
+    border: none;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+
+.terms {
+    font-size: 0.8em;
+    color: #f0f0f0;
+}
+
+/* Features Section */
+.features {
+    background-color: #f0f0f0;
+    color: #121212;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 2em;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.feature {
+    width: 200px;
+    text-align: center;
+}
+
+.feature img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1em;
+}
+
+.feature h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.feature p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: #666;
+    padding: 2em;
+    text-align: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.footer-links li a {
+    color: #666;
+    text-decoration: none;
+}
